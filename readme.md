@@ -13,9 +13,8 @@ O funcionamento do models interage diretamente com o banco de dados, realizando 
 1. **Clonar o repositório:**
 
 ```bash
-   git clone https://github.com/luanalima77/aulaSemana4Modulo2Computacao.git
-   cd aulaSemana4Modulo2Computacao
-```
+   git clone https://github.com/SarahAraujoDuarte/atividadeemsala-modulo2.git
+   cd atividadeemsala-modulo2
 
 2. **Instalar as dependências:**
     
@@ -64,3 +63,13 @@ Estrutura de Diretórios
 * **`routes/`**: Rotas da aplicação.
 * **`tests/`**: Testes automatizados.
 * **`views/`**: Views da aplicação (se aplicável).
+
+
+# Interação entre o Model, o Controller e o View
+
+
+
+# Como ocorre o envio e o recebimento de dados no formato JSON neste projeto?
+
+# Qual a importância de usar HTML básico com formulários e tabelas para organizar e manipular dados no navegador?
+
