@@ -67,9 +67,20 @@ Estrutura de Diretórios
 
 # Interação entre o Model, o Controller e o View
 
-
+O model responsabiliza-se pelo gerenciamento dos dados e informações, enquanto o controllers age como um intermediário direcionadando as informações inseridas no model e o view responsabiliza-se pela exibição das informações para o usuário. 
 
 # Como ocorre o envio e o recebimento de dados no formato JSON neste projeto?
 
+O envio e o recebimento que ocorre dentro deste projeto pode ser demonstado através do seguinte trecho de código: 
+
+``` javascript
+router.get('/curso/:curso_id', controller.byCurso);
+```
+O trecho acima apresenta uma rota de curso, no qual o servidor está configurado para escutar uma requisição GET na rota /curso/:curso_id, onde :curso_id representa um parâmetro dinâmico, O servidor acessa o controller .byCurso, que busca os dados no model e retorna o objeto JSON. 
+
+
 # Qual a importância de usar HTML básico com formulários e tabelas para organizar e manipular dados no navegador?
+
+É importante utilizar formulários e tabelas na organização e manipulão dos dados, pois, o HTML auxilia na organização e clareza das informações no site.
+
 
